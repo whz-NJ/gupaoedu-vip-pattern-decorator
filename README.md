@@ -4,6 +4,8 @@
 
 解决兼容性问题，没有覆盖、扩展。
 
+同源的委托，就是装饰器模式。比如 mybatis里 CachingExecutor，它继承了Executor接口，它有个delegate成员变量，也实现了Executor接口，所以CachingExecutor就是装饰器模式。 
+
 ##装饰者模式
 
 装饰者模式是适配器模式的一个非常特别的版本 。 
